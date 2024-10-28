@@ -382,6 +382,10 @@ td button:hover {
     border-bottom: 1px solid #6c757d;
 }
 
+.cart-total {
+    color: #f1c40f;
+}
+
 @media (max-width: 768px) {
     .col-md-3, .col-md-9 {
         margin-bottom: 20px; 
