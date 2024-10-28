@@ -1,48 +1,48 @@
 {
     "products": {
         "ghe": [
-            { "id": 1, "name": "Ghế sopha 1", "image": "../images/ghe_1.webp", "price": "500 000", "description": "Ghế sopha 1" },
-            { "id": 2, "name": "Ghế sopha 2", "image": "../images/ghe_2.webp", "price": "500 000", "description": "Ghế sopha 2" },
-            { "id": 3, "name": "Ghế sopha 3", "image": "../images/ghe_3.webp", "price": "500 000", "description": "Ghế sopha 3" },
-            { "id": 4, "name": "Ghế sopha 4", "image": "../images/ghe_4.webp", "price": "500 000", "description": "Ghế sopha 4" },
-            { "id": 5, "name": "Ghế sopha 5", "image": "../images/ghe_5.webp", "price": "500 000", "description": "Ghế sopha 5" },
-            { "id": 6, "name": "Ghế sopha 6", "image": "../images/ghe_6.webp", "price": "500 000", "description": "Ghế sopha 6" },
-            { "id": 7, "name": "Ghế sopha 7", "image": "../images/ghe_7.webp", "price": "500 000", "description": "Ghế sopha 7" },
-            { "id": 8, "name": "Ghế sopha 8", "image": "../images/ghe_8.webp", "price": "500 000", "description": "Ghế sopha 8" },
-            { "id": 9, "name": "Ghế sopha 8", "image": "../images/ghe_9.webp", "price": "500 000", "description": "Ghế sopha 9" }
+            { "id": 1, "name": "Ghế sopha 1", "image": "images/ghe_1.webp", "price": "500 000", "description": "Ghế sopha 1" },
+            { "id": 2, "name": "Ghế sopha 2", "image": "images/ghe_2.webp", "price": "500 000", "description": "Ghế sopha 2" },
+            { "id": 3, "name": "Ghế sopha 3", "image": "images/ghe_3.webp", "price": "500 000", "description": "Ghế sopha 3" },
+            { "id": 4, "name": "Ghế sopha 4", "image": "images/ghe_4.webp", "price": "500 000", "description": "Ghế sopha 4" },
+            { "id": 5, "name": "Ghế sopha 5", "image": "images/ghe_5.webp", "price": "500 000", "description": "Ghế sopha 5" },
+            { "id": 6, "name": "Ghế sopha 6", "image": "images/ghe_6.webp", "price": "500 000", "description": "Ghế sopha 6" },
+            { "id": 7, "name": "Ghế sopha 7", "image": "images/ghe_7.webp", "price": "500 000", "description": "Ghế sopha 7" },
+            { "id": 8, "name": "Ghế sopha 8", "image": "images/ghe_8.webp", "price": "500 000", "description": "Ghế sopha 8" },
+            { "id": 9, "name": "Ghế sopha 8", "image": "images/ghe_9.webp", "price": "500 000", "description": "Ghế sopha 9" }
         ],
         "ban_go": [
-            { "id": 10, "name": "Bàn Gỗ 1", "image": "../images/ban_go_1.webp", "price": "1 000 000", "description": "Bàn Gỗ 1" },
-            { "id": 11, "name": "Bàn Gỗ 2", "image": "../images/ban_go_2.webp", "price": "800 000", "description": "Bàn Gỗ 2" },
-            { "id": 12, "name": "Bàn Gỗ 3", "image": "../images/ban_go_3.webp", "price": "503 000", "description": "Bàn Gỗ 3" },
-            { "id": 13, "name": "Bàn Gỗ 4", "image": "../images/ban_go_4.webp", "price": "421 000", "description": "Bàn Gỗ 4" },
-            { "id": 14, "name": "Bàn Gỗ 5", "image": "../images/ban_go_5.webp", "price": "560 000", "description": "Bàn Gỗ 5" },
-            { "id": 15, "name": "Bàn Gỗ 6", "image": "../images/ban_go_6.webp", "price": "725 000", "description": "Bàn Gỗ 6" },
-            { "id": 16, "name": "Bàn Gỗ 7", "image": "../images/ban_go_7.webp", "price": "1 800 000", "description": "Bàn Gỗ 7" },
-            { "id": 17, "name": "Bàn Gỗ 8", "image": "../images/ban_go_8.webp", "price": "320 000", "description": "Bàn Gỗ 8" },
-            { "id": 18, "name": "Bàn Gỗ 9", "image": "../images/ban_go_9.webp", "price": "450 000", "description": "Bàn Gỗ 9" }
+            { "id": 10, "name": "Bàn Gỗ 1", "image": "images/ban_go_1.webp", "price": "1 000 000", "description": "Bàn Gỗ 1" },
+            { "id": 11, "name": "Bàn Gỗ 2", "image": "images/ban_go_2.webp", "price": "800 000", "description": "Bàn Gỗ 2" },
+            { "id": 12, "name": "Bàn Gỗ 3", "image": "images/ban_go_3.webp", "price": "503 000", "description": "Bàn Gỗ 3" },
+            { "id": 13, "name": "Bàn Gỗ 4", "image": "images/ban_go_4.webp", "price": "421 000", "description": "Bàn Gỗ 4" },
+            { "id": 14, "name": "Bàn Gỗ 5", "image": "images/ban_go_5.webp", "price": "560 000", "description": "Bàn Gỗ 5" },
+            { "id": 15, "name": "Bàn Gỗ 6", "image": "images/ban_go_6.webp", "price": "725 000", "description": "Bàn Gỗ 6" },
+            { "id": 16, "name": "Bàn Gỗ 7", "image": "images/ban_go_7.webp", "price": "1 800 000", "description": "Bàn Gỗ 7" },
+            { "id": 17, "name": "Bàn Gỗ 8", "image": "images/ban_go_8.webp", "price": "320 000", "description": "Bàn Gỗ 8" },
+            { "id": 18, "name": "Bàn Gỗ 9", "image": "images/ban_go_9.webp", "price": "450 000", "description": "Bàn Gỗ 9" }
         ],
         "giuong": [
-            { "id": 19, "name": "Giường 1", "image": "../images/giuong_1.webp", "price": "900 000", "description": "Giường 1" },
-            { "id": 20, "name": "Giường 2", "image": "../images/giuong_2.webp", "price": "900 000", "description": "Giường 2" },
-            { "id": 21, "name": "Giường 3", "image": "../images/giuong_3.webp", "price": "900 000", "description": "Giường 3" },
-            { "id": 22, "name": "Giường 4", "image": "../images/giuong_4.webp", "price": "900 000", "description": "Giường 4" },
-            { "id": 23, "name": "Giường 5", "image": "../images/giuong_5.webp", "price": "900 000", "description": "Giường 5" },
-            { "id": 24, "name": "Giường 6", "image": "../images/giuong_6.webp", "price": "900 000", "description": "Giường 6" },
-            { "id": 25, "name": "Giường 7", "image": "../images/giuong_7.webp", "price": "900 000", "description": "Giường 7" },
-            { "id": 26, "name": "Giường 8", "image": "../images/giuong_8.webp", "price": "900 000", "description": "Giường 8" },
-            { "id": 27, "name": "Giường 8", "image": "../images/giuong_9.webp", "price": "900 000", "description": "Giường 9" }
+            { "id": 19, "name": "Giường 1", "image": "images/giuong_1.webp", "price": "900 000", "description": "Giường 1" },
+            { "id": 20, "name": "Giường 2", "image": "images/giuong_2.webp", "price": "900 000", "description": "Giường 2" },
+            { "id": 21, "name": "Giường 3", "image": "images/giuong_3.webp", "price": "900 000", "description": "Giường 3" },
+            { "id": 22, "name": "Giường 4", "image": "images/giuong_4.webp", "price": "900 000", "description": "Giường 4" },
+            { "id": 23, "name": "Giường 5", "image": "images/giuong_5.webp", "price": "900 000", "description": "Giường 5" },
+            { "id": 24, "name": "Giường 6", "image": "images/giuong_6.webp", "price": "900 000", "description": "Giường 6" },
+            { "id": 25, "name": "Giường 7", "image": "images/giuong_7.webp", "price": "900 000", "description": "Giường 7" },
+            { "id": 26, "name": "Giường 8", "image": "images/giuong_8.webp", "price": "900 000", "description": "Giường 8" },
+            { "id": 27, "name": "Giường 8", "image": "images/giuong_9.webp", "price": "900 000", "description": "Giường 9" }
         ],
         "tu_quan_ao": [
-            { "id": 28, "name": "Tủ quần áo 1", "image": "../images/tu_quan_ao_1.webp", "price": "800 000", "description": "Tủ quần áo 1" },
-            { "id": 29, "name": "Tủ quần áo 2", "image": "../images/tu_quan_ao_2.webp", "price": "900 000", "description": "Tủ quần áo 2" },
-            { "id": 30, "name": "Tủ quần áo 3", "image": "../images/tu_quan_ao_3.webp", "price": "1 000 000", "description": "Tủ quần áo 3" },
-            { "id": 31, "name": "Tủ quần áo 4", "image": "../images/tu_quan_ao_4.webp", "price": "700 000", "description": "Tủ quần áo 4" },
-            { "id": 32, "name": "Tủ quần áo 5", "image": "../images/tu_quan_ao_5.webp", "price": "700 000", "description": "Tủ quần áo 5" },
-            { "id": 33, "name": "Tủ quần áo 6", "image": "../images/tu_quan_ao_6.webp", "price": "700 000", "description": "Tủ quần áo 6" },
-            { "id": 34, "name": "Tủ quần áo 7", "image": "../images/tu_quan_ao_7.webp", "price": "700 000", "description": "Tủ quần áo 7" },
-            { "id": 35, "name": "Tủ quần áo 8", "image": "../images/tu_quan_ao_8.webp", "price": "700 000", "description": "Tủ quần áo 8" },
-            { "id": 36, "name": "Tủ quần áo 8", "image": "../images/tu_quan_ao_9.webp", "price": "700 000", "description": "Tủ quần áo 9" }
+            { "id": 28, "name": "Tủ quần áo 1", "image": "images/tu_quan_ao_1.webp", "price": "800 000", "description": "Tủ quần áo 1" },
+            { "id": 29, "name": "Tủ quần áo 2", "image": "images/tu_quan_ao_2.webp", "price": "900 000", "description": "Tủ quần áo 2" },
+            { "id": 30, "name": "Tủ quần áo 3", "image": "images/tu_quan_ao_3.webp", "price": "1 000 000", "description": "Tủ quần áo 3" },
+            { "id": 31, "name": "Tủ quần áo 4", "image": "images/tu_quan_ao_4.webp", "price": "700 000", "description": "Tủ quần áo 4" },
+            { "id": 32, "name": "Tủ quần áo 5", "image": "images/tu_quan_ao_5.webp", "price": "700 000", "description": "Tủ quần áo 5" },
+            { "id": 33, "name": "Tủ quần áo 6", "image": "images/tu_quan_ao_6.webp", "price": "700 000", "description": "Tủ quần áo 6" },
+            { "id": 34, "name": "Tủ quần áo 7", "image": "images/tu_quan_ao_7.webp", "price": "700 000", "description": "Tủ quần áo 7" },
+            { "id": 35, "name": "Tủ quần áo 8", "image": "images/tu_quan_ao_8.webp", "price": "700 000", "description": "Tủ quần áo 8" },
+            { "id": 36, "name": "Tủ quần áo 8", "image": "images/tu_quan_ao_9.webp", "price": "700 000", "description": "Tủ quần áo 9" }
         ]
     }
 }
