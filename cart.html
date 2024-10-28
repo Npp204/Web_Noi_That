@@ -60,7 +60,7 @@
                     </div>
                     <div class="form-text">
                         <label class="form-check-label" for="changeaddress">Estimate for Your Country</label>
-                        <input type="text" name="changeaddress" placeholder="Change address">
+                        <input type="text" name="changeaddress" placeholder="Change address" id="address">
                     </div>
                     <h5 class="mt-3 cart-total">Tổng tiền:   <span id="total">0</span></h5>
                     <button class="btn btn-primary w-100 mt-3" id="checkout-button" onclick="checkout()">Proceed to Checkout</button>
@@ -190,8 +190,8 @@
                     return;
                 }
         
-                alert('Thanh toán thành công! Tổng tiền: ' + $('#total').text() + '. Cảm ơn bạn đã mua hàng.');
-        
+                alert('Thanh toán thành công! Tổng tiền: ' + $('#total').text() + '. Hàng sẽ được vận chuyển đến '+ $('#address').val() +'. Cảm ơn bạn đã mua hàng.');
+                
                 localStorage.removeItem('cart');
                 renderCart();
             }
