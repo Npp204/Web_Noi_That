@@ -67,18 +67,32 @@ function displayProducts(products) {
                 <div class="product-card">
                     <img src="${product.image}" class="product-image" alt="${product.name}">
                     <div class="product-info">
-                        <h5>${product.name}</h5>
-                        <p>${product.description}</p>               
-                        <p class="price">${product.price} VNĐ</p>        
+                        <h4>${product.name}</h4>                                    
+                        <p class="price">${product.price} VNĐ</p>    
+                        <div class="rating">
+                            ${getStars(product.rating)}
+                        </div>    
                     </div>
                     <div class="button-group">  
-                        <button class="add-to-cart" onclick="addToCart(${product.id})">ADD TO CART</button>
-                        <button class="view-details"> <a href="chitiet.html">VIEW DETAILS</a> </button>  
+                        <button class="add-to-cart" onclick="addToCart(${product.id})"><i class="bi bi-cart"></i></button>
+                        <button class="view-details"> <a href="chitiet.html"><i class="bi bi-eye"></i></a> </button>  
                     </div>
                 </div>
             </div>
         `);
     });
+}
+
+function getStars(rating) {
+    let stars = '';
+    for (let i = 1; i <= 5; i++) {
+        if (i <= rating) {
+            stars += '<span class="star">&#9733;</span>'; // Sao vàng
+        } else {
+            stars += '<span class="star-inactive">&#9733;</span>'; // Sao xám
+        }
+    }
+    return stars;
 }
 
 function displayPaginatedProducts(products, page) {
