@@ -62,17 +62,24 @@ function displayProducts(products) {
     productList.empty();
 
     products.forEach(product => {
+        let saleLabel = ''; 
+
+        if (product.isSale) {
+            saleLabel = '<span class="sale-label">Sale</span>'; 
+        }
+
         productList.append(`
             <div class="col">
                 <div class="product-card">
                     <img src="${product.image}" class="product-image" alt="${product.name}">
                     <div class="product-info">
-                        <h4>${product.name}</h4>                                    
-                        <p class="price">${product.price} VNĐ</p>    
-                        <div class="rating">
+                        <h3>${product.name}</h3>                                    
+                        <p class="price text-center fs-4">${product.price} VNĐ</p>    
+                        <div class="rating text-center">
                             ${getStars(product.rating)}
                         </div>    
                     </div>
+                    ${saleLabel}
                     <div class="button-group">  
                         <button class="add-to-cart" onclick="addToCart(${product.id})"><i class="bi bi-cart"></i></button>
                         <button class="view-details"> <a href="chitiet.html"><i class="bi bi-eye"></i></a> </button>  
@@ -87,9 +94,9 @@ function getStars(rating) {
     let stars = '';
     for (let i = 1; i <= 5; i++) {
         if (i <= rating) {
-            stars += '<span class="star">&#9733;</span>'; // Sao vàng
+            stars += '<span class="star fs-5">&#9733;</span>'; // Sao vàng
         } else {
-            stars += '<span class="star-inactive">&#9733;</span>'; // Sao xám
+            stars += '<span class="star-inactive fs-5">&#9733;</span>'; // Sao xám
         }
     }
     return stars;
@@ -203,6 +210,23 @@ $(document).ready(function() {
         currentPage = 1; // Reset to first page
         updatePageContent();
     });
+
+    // Event listener for "Filter clean all"
+    $(".clean").click(function() {
+        // Reset category to "all"
+        $(".category-item").removeClass("active");
+        $(".category-item[data-category='all']").addClass("active");
+        
+        // Reset sort option to "default"
+        $("#sort-options").val('default');
+        
+        // Reset current category and page
+        currentCategory = 'all';
+        currentPage = 1; // Reset to first page
+        
+        // Update page content
+        updatePageContent();
+    });
 });
 
 
@@ -243,5 +267,5 @@ function updateCartCount() {
 window.onload = function() {
     loadCartFromLocalStorage(); 
     updateCartCount();
-    renderCart();
+    // renderCart();
 };

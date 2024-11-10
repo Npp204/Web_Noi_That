@@ -12,21 +12,55 @@
 <body>
     <h1 class="text-center mb-4">Product Listing</h1>
     <!-- Sidebar: Categories -->
-    <div class="container mt-5">
+    <div class="container-fluid mt-5">
         <div class="row">
-            <div class="icon-cart">
+            <div class="col-9 icon-cart">
                 <a class="nav-link" href="cart.html"><i class="bi bi-cart"><span>0</span></i></a>
             </div>
         </div>
 
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Product</li>
-            </ol>
-        </nav>
-        <hr class="divider">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="products.html">Product</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+                    </ol>
+                </nav>
         
+                
+            </div>
+
+        </div>
+        <hr class="divider">
+    </div>
+
+    <div class="container mt-5">    
+        <div class="row">
+            <div class="col-md-3">
+                <div>Filters:</div>
+            </div>
+            <div class="col-md-3">
+                <div class="clean">Clean All</div>
+            </div>
+            <div class="col-md-3 text-end">
+                <h5 class="mt-1">Sort by</h5>
+            </div>
+            <div class="col-md-3">
+                <select id="sort-options" class="form-select">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="name-asc">Name: A to Z</option>
+                    <option value="name-desc">Name: Z to A</option>
+                </select>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-md-3">
                 <h5>Category</h5>
@@ -37,15 +71,6 @@
                     <li class="list-group-item category-item" data-category="giuong">Giường</li>
                     <li class="list-group-item category-item" data-category="tu_quan_ao">Tủ quần áo</li>
                 </ul>
-
-                <h5 class="mt-1">Sort by</h5>
-                <select id="sort-options" class="form-select">
-                    <option value="default">Default</option>
-                    <option value="price-asc">Price: Low to High</option>
-                    <option value="price-desc">Price: High to Low</option>
-                    <option value="name-asc">Name: A to Z</option>
-                    <option value="name-desc">Name: Z to A</option>
-                </select>
             </div>
 
             <!-- Product List -->

@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     color: #333;
+    font-size: 14pt;
 }
 
 h1 {
@@ -15,6 +16,8 @@ h1 {
     margin-bottom: 0;
 }
 
+
+/*---------- CSS for Products ----------*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -26,7 +29,7 @@ h1 {
     background-color: #fff;
     border: 1px solid #ddd;
     /* border-radius: 8px; */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     padding: 15px;
     text-align: center;
     transition: transform 0.2s ease;
@@ -66,6 +69,40 @@ h1 {
     color: #f1c40f;
 }
 
+.star {
+    color: gold;
+    font-size: 16px;
+}
+
+.star-inactive {
+    color: gray;
+    font-size: 16px;
+}
+
+.list-group, .form-select {
+    border-radius: 0;
+}
+
+select, option{
+    border-radius: 0;
+}
+
+.sale-label {
+    position: absolute;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+    display: flex;       
+    justify-content: center; 
+    align-items: center;     
+    z-index: 10;
+}
 
 .pagination {
     display: flex;
@@ -216,7 +253,7 @@ h1 {
     list-style: none;
     display: flex; 
     justify-content: start; 
-    background-color: #f9f9f9; 
+    background-color: #ffffff; 
     padding: 10px 15px; 
     border-radius: 5px; 
     margin-bottom: 0px; 
@@ -230,14 +267,15 @@ h1 {
 }
 
 .breadcrumb-item a {   
-    color: #6c757d; /* Màu chữ cho liên kết */
-    text-decoration: none; /* Bỏ gạch chân */
+    color: #6c757d; 
+    text-decoration: none; 
 }
 
 .breadcrumb-item a:hover {
     text-decoration: underline; 
 } 
 
+/*---------- CSS for Cart ----------*/
 .icon-cart {
     right: -20px;
     position: relative;
@@ -260,8 +298,9 @@ h1 {
 
 .cart {  
     background: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ced7de;
+    border-radius: 2px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
     width: 800px;
     min-height: auto;
     overflow-y: auto;
@@ -323,10 +362,11 @@ thead {
 
 .cart-summary {
     font-size: 14pt;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
     background-color: #f2f2f2;
-    min-height: auto;
+    width: 400px;
+    height: auto;
     border-top: 1px solid #ddd;
     padding: 10px;
 }
@@ -354,6 +394,7 @@ thead {
 
 .cart-summary button:hover {
     background: #e67e22;
+    border: #e67e22;
 }
 
 td button {
@@ -393,24 +434,6 @@ td button:hover {
 
 .cart-total {
     color: #f1c40f;
-}
-
-.star {
-    color: gold;
-    font-size: 16px;
-}
-
-.star-inactive {
-    color: gray;
-    font-size: 16px;
-}
-
-.list-group, .form-select {
-    border-radius: 0;
-}
-
-select, option{
-    border-radius: 0;
 }
 
 @media (max-width: 768px) {

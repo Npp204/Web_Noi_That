@@ -11,19 +11,31 @@
 <body>
 
     <h1 class="cart-title text-center mb-4">Shopping Cart</h1>
-    <div class="container mt-5 cart-container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="products.html">Product</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
-            </ol>
-        </nav>
+    <div class="container-fluid mt-5 cart-container">
+        <div class="row">
+            <div class="col-1">
 
-        <hr class="divider">
+            </div>
+            <div class="col-9">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="products.html">Product</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+                    </ol>
+                </nav>
+        
+                
+            </div>
+            <div class="col-1">
+
+            </div>
+        </div>
+        
 
         
         <div class="row w-100 justify-content-center mb-4">
+            <hr class="divider">
             <!-- Product List -->
             <div class="cart col-md-8">
                 <table id="cart">
@@ -42,7 +54,7 @@
                 </table>
             </div>
 
-            <div class="col-md-4 m-4">
+            <div class="col-md-4 me-4">
                 <div class="cart-summary">
                     <h5 class="cart-total-title">Cart Total</h5>
                     <p class="cart-subtotal">Subtotal: <span id="subtotal">0</span></p>
@@ -129,7 +141,7 @@
                                 </div>
                             </td>
                             <td class="total-price text-warning">${totalPrice.toLocaleString()} VNĐ</td>
-                            <td><button class="btn-remove" data-index="${index}">Xoá</button></td>
+                            <td><button class="btn-remove" data-index="${index}"><i class="bi bi-x"></i></button></td>
                         </tr>
                     `;
                     $cartItemsContainer.append(row);
