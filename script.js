@@ -11,7 +11,7 @@ document.querySelector('.icon-cart').addEventListener('click', () => {
 
 
 function fetchProductsData() {
-    return fetch('data.json')
+    return fetch('data_products.json')
         .then(response => response.json())
         .then(data => {
             productsData = data.products;
@@ -71,7 +71,7 @@ function displayProducts(products) {
         productList.append(`
             <div class="col">
                 <div class="product-card">
-                    <img src="${product.image}" class="product-image" alt="${product.name}">
+                    <img src="${product.image1}" class="product-image" alt="${product.name}">
                     <div class="product-info">
                         <h4 mb-2 fw-bold>${product.name}</h4>                                    
                         <p class="price text-center fs-5">${product.price} VNĐ</p>    

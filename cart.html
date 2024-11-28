@@ -72,7 +72,7 @@
                         <label class="form-check-label" for="expressShipping">Express (20 000 VNĐ)</label>
                     </div>
                     <div class="form-text">
-                        <label class="form-check-label" for="changeaddress">Estimate for Your Country</label>
+                        <label class="form-check-label" for="changeaddress">Your Address:</label>
                         <input type="text" name="changeaddress" placeholder="Change address" id="address">
                     </div>
                     <h5 class="mt-3 cart-total">Tổng tiền:   <span id="total">0</span></h5>
@@ -131,7 +131,7 @@
         
                     const row = `
                         <tr>
-                            <td><img src="${item.image}" alt="${item.name}" width="50"> ${item.name}</td>
+                            <td><img src="${item.image1}" alt="${item.name}" width="50"> ${item.name}</td>
                             <td>${item.price} VNĐ</td>
                             <td>
                                 <div class="quantity-box">
@@ -207,6 +207,8 @@
                 
                 localStorage.removeItem('cart');
                 renderCart();
+                $('#address').val('');
+                $('#freeShipping').prop('checked', true);
             }
         
             $('#checkout-button').on('click', function () {
