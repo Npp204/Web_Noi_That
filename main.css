@@ -1,0 +1,163 @@
+li {
+  list-style-type: none;
+}
+* {
+  color: #171717;
+}
+button {
+  border: 0;
+  background-color: transparent;
+  font-weight: 500;
+  color: #6c757d;
+}
+.text-primary-custom {
+  color: gold;
+}
+.background-primary-custom {
+  background-color: gold;
+  color: white;
+}
+#modal {
+  z-index: 999;
+}
+#wrapper-modal-login {
+  z-index: 999;
+  max-width: 100vw;
+}
+
+ul {
+  margin: 0 !important;
+}
+img {
+  min-width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.line-claim-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Số dòng muốn giới hạn */
+  -webkit-box-orient: vertical; /* Thiết lập hướng khung */
+  overflow: hidden;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.height-outlet {
+  height: 480px;
+}
+a {
+  cursor: pointer;
+  color: #171717 !important;
+  text-decoration: none !important;
+}
+a:hover {
+  opacity: 0.5;
+}
+#slider {
+  scroll-behavior: smooth; /* Áp dụng hiệu ứng cuộn mượt */
+  scrollbar-width: none; /* Ẩn scrollbar trên Firefox */
+}
+.container .feature-active {
+  color: gold !important;
+  opacity: 1 !important;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: #a9afb4;
+  transition-duration: 0.5s;
+}
+#slider::-webkit-scrollbar {
+  display: none; /* Ẩn scrollbar trên Chrome, Safari và Edge */
+}
+.input-login-active {
+  border-color: gold !important;
+}
+label {
+  user-select: none;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.3;
+  user-select: none;
+  cursor: text !important;
+}
+#not-login {
+  display: flex;
+}
+#modal {
+  display: none;
+}
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  font-weight: 500;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logined {
+  line-height: 36px;
+  color: white;
+  margin-top: -5px;
+  font-size: 20px;
+}
+.user-avatar:hover #logout {
+  display: block;
+}
+#logout {
+  display: none;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 0 4px 1px rgb(190, 190, 190);
+  top: 110%;
+  position: absolute;
+  font-weight: 400;
+  padding: 10px;
+}
+#logout::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background-color: transparent;
+  top: -10px;
+  left: 0;
+}
+
+.icon-cart {
+  right: -20px;
+  position: relative;
+  cursor: pointer;
+}
+#header header {
+  padding: 0 auto !important;
+}
+.icon-cart span {
+  position: absolute;
+  background-color: gold;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  top: -11px;
+  left: 2px;
+}
+.nav-link.active {
+  color: gold !important;
+}
+
+@media (max-width: 992px) {
+  /* Các kiểu CSS sẽ áp dụng cho màn hình có chiều rộng nhỏ hơn hoặc bằng 768px */
+  .height-outlet {
+    height: auto;
+  }
+  #img-deal {
+    aspect-ratio: 1/1;
+  }
+}
